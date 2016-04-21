@@ -1,0 +1,17 @@
+doctype html
+html
+	head
+		meta(http-equiv="Content-Type",content="text/html; charset=utf-8")
+		title!= title
+	body
+		h1!= message
+	#container
+		p.
+			修改mock/mock.js后重启服务，即可模拟HTTP请求。
+		p.
+			reqUrl：请求URL
+			resParams：请求参数
+			expect：返回参数
+			method：POST/GET/*
+		p.
+			TODO：页面设置MOCK请求
